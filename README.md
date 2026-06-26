@@ -1,7 +1,6 @@
 # swayopacity
 
-A lightweight sway daemon that adjusts the opacity based on focus.
-Freely adjust the opaqueness of focused and unfocused windows.
+A lightweight sway daemon that adjusts the opacity based on focus. Freely adjust the opaqueness of focused and unfocused windows. If you want additional features or find a bug, feel free to open an issue or a pull request.
 
 ## Requirements
 
@@ -42,6 +41,9 @@ systemctl --user start swayopacity
 
 Add to `~/.config/sway/config`:
 
+```sway
+exec swayopacity
+```
 
 ## License
 

@@ -1,0 +1,15 @@
+[package]
+name = "swayopacity"
+version = "0.1.0"
+edition = "2024"
+description = "Lightweight sway window opacity daemon"
+license = "MIT"
+repository = "https://github.com/plotkaraphael29-arch/swayopacity"
+
+[dependencies]
+directories = "6.0.0"
+futures-util = "0.3.32"
+serde = {version = "1.0.228", features = ["derive"]}
+swayipc-async = "3.0.0"
+tokio = {version = "1.52.3", features = ["full"]}
+toml = "1.1.2"

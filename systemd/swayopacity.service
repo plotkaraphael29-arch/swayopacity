@@ -1,0 +1,12 @@
+[Unit]
+Description=Sway window opacity daemon
+After=sway-session.target
+
+[Service]
+Type=simple
+ExecStart=%h/.cargo/bin/swayopacity
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=sway-session.target
